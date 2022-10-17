@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0274CD43264783B5008099B6 /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274CD42264783B5008099B6 /* SwiftfulCryptoApp.swift */; };
+		0274CD43264783B5008099B6 /* SwiftCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274CD42264783B5008099B6 /* SwiftCryptoApp.swift */; };
 		0274CD47264783B8008099B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0274CD46264783B8008099B6 /* Assets.xcassets */; };
 		0274CD4A264783B8008099B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0274CD49264783B8008099B6 /* Preview Assets.xcassets */; };
 		0274CD582647880E008099B6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0274CD572647880E008099B6 /* Color.swift */; };
@@ -51,8 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0274CD3F264783B5008099B6 /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0274CD42264783B5008099B6 /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
+		0274CD3F264783B5008099B6 /* SwiftCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0274CD42264783B5008099B6 /* SwiftCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCryptoApp.swift; sourceTree = "<group>"; };
 		0274CD46264783B8008099B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0274CD49264783B8008099B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0274CD4B264783B8008099B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		0274CD36264783B5008099B6 = {
 			isa = PBXGroup;
 			children = (
-				0274CD41264783B5008099B6 /* SwiftfulCrypto */,
+				0274CD41264783B5008099B6 /* SwiftCrypto */,
 				0274CD40264783B5008099B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,15 +118,15 @@
 		0274CD40264783B5008099B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0274CD3F264783B5008099B6 /* SwiftfulCrypto.app */,
+				0274CD3F264783B5008099B6 /* SwiftCrypto.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0274CD41264783B5008099B6 /* SwiftfulCrypto */ = {
+		0274CD41264783B5008099B6 /* SwiftCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				0274CD42264783B5008099B6 /* SwiftfulCryptoApp.swift */,
+				0274CD42264783B5008099B6 /* SwiftCryptoApp.swift */,
 				0274CD882647CE3A008099B6 /* Utilities */,
 				0274CD56264787ED008099B6 /* Extensions */,
 				0274CD842647C2FC008099B6 /* Services */,
@@ -136,7 +136,7 @@
 				0274CD4B264783B8008099B6 /* Info.plist */,
 				0274CD48264783B8008099B6 /* Preview Content */,
 			);
-			path = SwiftfulCrypto;
+			path = SwiftCrypto;
 			sourceTree = "<group>";
 		};
 		0274CD48264783B8008099B6 /* Preview Content */ = {
@@ -327,9 +327,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0274CD3E264783B5008099B6 /* SwiftfulCrypto */ = {
+		0274CD3E264783B5008099B6 /* SwiftCrypto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0274CD4E264783B8008099B6 /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */;
+			buildConfigurationList = 0274CD4E264783B8008099B6 /* Build configuration list for PBXNativeTarget "SwiftCrypto" */;
 			buildPhases = (
 				0274CD3B264783B5008099B6 /* Sources */,
 				0274CD3C264783B5008099B6 /* Frameworks */,
@@ -339,9 +339,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftfulCrypto;
+			name = SwiftCrypto;
 			productName = SwiftfulCrypto;
-			productReference = 0274CD3F264783B5008099B6 /* SwiftfulCrypto.app */;
+			productReference = 0274CD3F264783B5008099B6 /* SwiftCrypto.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0274CD3A264783B5008099B6 /* Build configuration list for PBXProject "SwiftfulCrypto" */;
+			buildConfigurationList = 0274CD3A264783B5008099B6 /* Build configuration list for PBXProject "SwiftCrypto" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -371,7 +371,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0274CD3E264783B5008099B6 /* SwiftfulCrypto */,
+				0274CD3E264783B5008099B6 /* SwiftCrypto */,
 			);
 		};
 /* End PBXProject section */
@@ -407,7 +407,7 @@
 				0274CD6026478CD7008099B6 /* HomeView.swift in Sources */,
 				0274CDA72648AEA7008099B6 /* StatisticView.swift in Sources */,
 				0274CD8F2647D85F008099B6 /* CoinImageView.swift in Sources */,
-				0274CD43264783B5008099B6 /* SwiftfulCryptoApp.swift in Sources */,
+				0274CD43264783B5008099B6 /* SwiftCryptoApp.swift in Sources */,
 				0274CDA026489F3A008099B6 /* UIApplication.swift in Sources */,
 				028E1C19264F784A00A4B420 /* LaunchView.swift in Sources */,
 				0274CD6626478E1E008099B6 /* CircleButtonView.swift in Sources */,
@@ -560,10 +560,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCrypto/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftfulCrypto/Info.plist;
+				INFOPLIST_FILE = SwiftCrypto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -582,10 +582,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulCrypto/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftCrypto/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwiftfulCrypto/Info.plist;
+				INFOPLIST_FILE = SwiftCrypto/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0274CD3A264783B5008099B6 /* Build configuration list for PBXProject "SwiftfulCrypto" */ = {
+		0274CD3A264783B5008099B6 /* Build configuration list for PBXProject "SwiftCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0274CD4C264783B8008099B6 /* Debug */,
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0274CD4E264783B8008099B6 /* Build configuration list for PBXNativeTarget "SwiftfulCrypto" */ = {
+		0274CD4E264783B8008099B6 /* Build configuration list for PBXNativeTarget "SwiftCrypto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0274CD4F264783B8008099B6 /* Debug */,

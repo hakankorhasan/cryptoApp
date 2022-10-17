@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SwiftfulCryptoApp: App {
+struct SwiftCryptoApp: App {
     
     @StateObject private var vm = HomeViewModel()
     @State private var showLaunchView: Bool = true
