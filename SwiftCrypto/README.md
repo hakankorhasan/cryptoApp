@@ -9,7 +9,7 @@ SETTINGS:
 * ![Homepage](Photos/settings.png)
 
 PORTFOLİO:
-* ![Homepage](Photos/portfolio.png)
+* ![Homepage](Photos/portfolio.png width="300")
 
 PAY COİN:
 * ![Homepage](Photos/paycoin.png)
