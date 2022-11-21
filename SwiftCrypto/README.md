@@ -6,7 +6,7 @@ HOMEPAGE:
 * ![Homepage](Photos/homepage.png)
 
 PORTFOLİO:
-* ![Homepage](Photos/portfolio.png width="300")
+* ![Homepage](Photos/portfolio.png)
 
 PAY COİN:
 * ![Homepage](Photos/paycoin.png)
