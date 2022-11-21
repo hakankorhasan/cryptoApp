@@ -5,6 +5,9 @@ SwiftUI ile %100 programmatic olarak geliştirildi MVVM architecture Full Native
 HOMEPAGE:
 * ![Homepage](Photos/homepage.png)
 
+SETTINGS:
+* ![Homepage](Photos/settings.png)
+
 PORTFOLİO:
 * ![Homepage](Photos/portfolio.png)
 

@@ -48,11 +48,11 @@
 		028E1C0F264F6B1200A4B420 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E1C0E264F6B1200A4B420 /* SettingsView.swift */; };
 		028E1C15264F767C00A4B420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028E1C14264F767C00A4B420 /* LaunchScreen.storyboard */; };
 		028E1C19264F784A00A4B420 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E1C18264F784A00A4B420 /* LaunchView.swift */; };
-		7F147470292C11DE001A7542 /* settings in Resources */ = {isa = PBXBuildFile; fileRef = 7F14746B292C11DD001A7542 /* settings */; };
 		7F147471292C11DE001A7542 /* paycoin.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F14746C292C11DD001A7542 /* paycoin.png */; };
-		7F147472292C11DE001A7542 /* portfoilo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F14746D292C11DD001A7542 /* portfoilo.png */; };
 		7F147473292C11DE001A7542 /* homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F14746E292C11DE001A7542 /* homepage.png */; };
 		7F147474292C11DE001A7542 /* coindetail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F14746F292C11DE001A7542 /* coindetail.png */; };
+		7F14747A292C1E47001A7542 /* portfolio.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F147479292C1E47001A7542 /* portfolio.png */; };
+		7F14747C292C1E5D001A7542 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F14747B292C1E5C001A7542 /* settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,12 +99,12 @@
 		028E1C0E264F6B1200A4B420 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		028E1C14264F767C00A4B420 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028E1C18264F784A00A4B420 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
-		7F14746B292C11DD001A7542 /* settings */ = {isa = PBXFileReference; lastKnownFileType = file; path = settings; sourceTree = "<group>"; };
 		7F14746C292C11DD001A7542 /* paycoin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paycoin.png; sourceTree = "<group>"; };
-		7F14746D292C11DD001A7542 /* portfoilo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfoilo.png; sourceTree = "<group>"; };
 		7F14746E292C11DE001A7542 /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage.png; sourceTree = "<group>"; };
 		7F14746F292C11DE001A7542 /* coindetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coindetail.png; sourceTree = "<group>"; };
 		7F147477292C1815001A7542 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F147479292C1E47001A7542 /* portfolio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfolio.png; sourceTree = "<group>"; };
+		7F14747B292C1E5C001A7542 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,9 +340,9 @@
 		7F14746A292C11A0001A7542 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				7F14747B292C1E5C001A7542 /* settings.png */,
+				7F147479292C1E47001A7542 /* portfolio.png */,
 				7F14746E292C11DE001A7542 /* homepage.png */,
-				7F14746B292C11DD001A7542 /* settings */,
-				7F14746D292C11DD001A7542 /* portfoilo.png */,
 				7F14746C292C11DD001A7542 /* paycoin.png */,
 				7F14746F292C11DE001A7542 /* coindetail.png */,
 			);
@@ -406,13 +406,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F147470292C11DE001A7542 /* settings in Resources */,
+				7F14747C292C1E5D001A7542 /* settings.png in Resources */,
 				028E1C15264F767C00A4B420 /* LaunchScreen.storyboard in Resources */,
 				0274CD4A264783B8008099B6 /* Preview Assets.xcassets in Resources */,
 				7F147471292C11DE001A7542 /* paycoin.png in Resources */,
 				7F147473292C11DE001A7542 /* homepage.png in Resources */,
-				7F147472292C11DE001A7542 /* portfoilo.png in Resources */,
 				7F147474292C11DE001A7542 /* coindetail.png in Resources */,
+				7F14747A292C1E47001A7542 /* portfolio.png in Resources */,
 				0274CD47264783B8008099B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
