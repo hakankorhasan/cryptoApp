@@ -104,7 +104,7 @@
 		7F14746D292C11DD001A7542 /* portfoilo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portfoilo.png; sourceTree = "<group>"; };
 		7F14746E292C11DE001A7542 /* homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepage.png; sourceTree = "<group>"; };
 		7F14746F292C11DE001A7542 /* coindetail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coindetail.png; sourceTree = "<group>"; };
-		7F147475292C1462001A7542 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7F147476292C150C001A7542 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 		0274CD36264783B5008099B6 = {
 			isa = PBXGroup;
 			children = (
-				7F147475292C1462001A7542 /* README.md */,
+				7F147476292C150C001A7542 /* README.md */,
 				0274CD41264783B5008099B6 /* SwiftCrypto */,
 				0274CD40264783B5008099B6 /* Products */,
 			);
